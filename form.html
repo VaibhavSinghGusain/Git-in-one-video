@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form</title>
+</head>
+<body style="background-color:powderblue;">
+    <div>
+        <h1 style="font-size:60px;">Enrollment for the University Programme</h1>
+        <p>Name of the candidate-</p>
+        <form action="form.php">
+         <input type="text" placeholder="Enter your full name">
+        <label for="sectionida">
+         <input type="radio" value="Male" name="setion" id="Male"> Male
+        </label>
+        <label for="sectionida">
+            <input type="radio" value="Female" name="setion" id="Male"> Female
+           </label>
+           <label for="sectionida">
+            <input type="radio" value="Other" name="setion" id="Male"> Other
+           </label>
+           </form>   
+    </div>
+    <div>
+        <p>Mother's Name</p>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your Mother's Name">
+        </form>
+    </div>
+    <div>
+        <p>Father's Name</p>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your Father's Name">
+        </form>
+    </div>
+    <div>
+        <br>
+        <input type="date" name="Date" id="Date"> Date of Birth
+    </div>
+    <div>
+        <br>
+        <select name="Course" id="Course">
+        <option value="No Course">Select Course to Apply</option>
+        <option value="BSc. Physics">BSc. Physics</option>
+        <option value="BSc. Chemistry">BSc. Chemistry</option>
+        <option value="BSc. Maths">BSc. Maths</option>
+        <option value="BSc Design">BSc. Design</option>
+    </select>
+    </div>
+    <div>
+        <br>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your Email Address">
+    </div>
+    <div>
+        <p>Contact Number</p>
+        <form action="form.php">
+        <input type="number"  placeholder= "Enter Your Number" >
+        </form>
+    </div>
+    <div>
+        <br>
+        <select name="Country" id="Country">
+            <option value="No Country">Select Country Name</option>
+            <option value="India">India</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="U.S.A">U.S.A</option>
+            <option value="Australia">Australia</option>
+        </div>
+        <div>
+            <input type="checkbox" id="For more queries" class="red" name="Queries"><br>
+            <label for="For More Queries">For more queries</label>
+            <textarea name="Explain" id="Explain" cols="30" rows="10" placeholder="For More Queries"></textarea>
+        </div>
+</html>
+</body>
+</html>
